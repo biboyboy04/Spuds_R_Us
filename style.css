@@ -5,7 +5,6 @@ body {
   flex-direction: column;
   color: #634421;
   margin: 0;
-  overflow-x: hidden;
 }
 
 ul {
@@ -31,7 +30,6 @@ hr {
   display: flex;
   flex: 1;
   flex-direction: column;
-  max-width: 100%
 }
 
 .header {
@@ -44,7 +42,6 @@ hr {
 
 }
 .header img {
-  max-width: 100%;
   height: 9vmin;
 }
 
@@ -62,7 +59,6 @@ ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
 .hero-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 50%;
 }
 
 .hero img {
@@ -100,7 +96,6 @@ button:hover {
   justify-content: center;
   gap: 2%;
   flex-wrap: wrap;
-  max-width: 100%;
 }
 
 .info-header {
@@ -186,6 +181,7 @@ button:hover {
 
 .attribution {
   font-size: inherit;
+  align-items: center;
   flex-wrap: wrap;
 }
 
