@@ -41,6 +41,7 @@ hr {
 }
 .header-logo {
   margin-right: auto;
+
 }
 .header img {
   max-width: 100%;
@@ -92,7 +93,6 @@ button:hover {
 .information {
   padding: 3% 0% 4%;
   background-color: #FAD480;
-
 }
 
 .information-container {
@@ -165,17 +165,14 @@ button:hover {
   padding: 3% 3% 3%;
 }
 
-
 .call-to-action-title {
   font-size: 4vmin;
   font-weight: bolder;
-
 }
 
 .call-to-action-secondary-text {
   color: white;
 }
-
 
 .footer {
   font-size: 2vmin;
