@@ -3,13 +3,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
- color: #634421;
+  color: #634421;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 18px;
+  gap: 3vmin;
 }
 
 a {
@@ -21,68 +23,80 @@ a {
   display: flex;
   flex: 1;
   flex-direction: column;
+  max-width: 100%
 }
 
 .header {
   display: flex;
-  padding: 0px 200px 0px;
+  padding: 0% 8% 0%;
   align-items: center;
+  max-width: 100%;
 }
 .header-logo {
-  font-weight: bold;
-  font-size: 24px;
   margin-right: auto;
+}
+.header img {
+  max-width: 100%;
+  height: 9vmin;
 }
 
 ul, .hero-secondary-text, .info-text, .hero, .call-to-action-secondary-text {
-  font-size: 22px;
+  font-size: 2.4vmin;
 }
 
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 80px 100px;
+  padding: 8% 5% 8%;
 }
 
 .hero-container {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  max-width: 50%;
+}
+
+.hero img {
+  max-width: 50%;
+  height: auto;
 }
 
 .hero-main-text {
-  font-size: 68px;
+  font-size: 7vmin;
   font-weight: bolder;
 }
 
 button {
   color: white;
-  padding: 8px 38px 8px;
+  padding: 1% 3.5% 1%;
   background-color: #E5890A;
   border-radius: 8px;
   font: inherit;
   border-color: #634421;
+  font-size: 2.3vmin;
 }
 
 .information {
-  padding: 45px 80px 60px;
+  padding: 3% 0% 4%;
   background-color: #FAD480;
+
 }
 
 .information-container {
   display: flex;
   justify-content: center;
-  gap: 70px;
+  gap: 5%;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .info-header {
-  font-size: 36px;
+  font-size: 4vmin;
   font-weight: bolder;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2%;
   color: #E5890A;
 }
 
@@ -92,39 +106,39 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 2vmin;
 }
 
 .info-title {
-  font-size: 30px;
+  font-size: 3vmin;
   font-weight: bolder;
 }
 
  .info img {
-  height: 200px;
-  width: 200px;
+  width: 15vmin;
+  height: 15vmin;
 }
 
 .quote {
   display: flex;
   flex-direction: column;
-  padding: 100px 525px 100px;
+  padding: 5% 20% 5%;
 }
 
 .quote-main-text{
-  font-size: 36px;
+  font-size: 4vmin;
   font-style: italic;
   font-weight: lighter;
 }
 
 .quotee {
-  font-size: 25px;
+  font-size: 2vmin;
   font-weight: bolder;
   text-align: right;
 }
 
 .call-to-action {
-  padding: 100px 200px 100px;
+  padding: 5% 10% 5%;
   background-color: #FAD480;
 }
 
@@ -135,13 +149,15 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 16px;
-  gap: 50px;
-  padding: 50px 25px 50px;
+  gap: 2.5%;
+  padding: 3% 3% 3%;
 }
 
+
 .call-to-action-title {
-  font-size: 35px;
+  font-size: 4vmin;
   font-weight: bolder;
+
 }
 
 .call-to-action-secondary-text {
@@ -150,10 +166,12 @@ button {
 
 .flaticon {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
-  padding: 25px;
+  padding: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
